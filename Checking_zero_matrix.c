@@ -26,11 +26,11 @@ int main()
     }
     if(total_val == zero)
     {
-        printf("this is a Zero matrix");
+        printf("this is a row matrix");
     }
     else
     {
-        printf("this is not a Zero matrix");
+        printf("this is not a row matrix");
     }
     return 0;
 }
