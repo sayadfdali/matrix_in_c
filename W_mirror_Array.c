@@ -13,7 +13,7 @@ int main()
     }
     for(int i=0;i<r;i++)
     {
-        for(int j=0;j<c;j++)
+        for(int j=c-1;j>=0;j--)
         {
             printf("%d " ,a[i][j]);
         }
